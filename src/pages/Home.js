@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
+import BlogCard from "../components/BlogCard";
 
 const Home = () => {
   return (
@@ -221,6 +223,109 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="marque-wrapper py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="marque-inner-wrapper card-wrapper">
+                <Marquee className="d-flex">
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-01.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-02.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-03.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-04.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-05.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-06.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-07.png"
+                      alt="brand"
+                    />
+                  </div>
+                  <div className="mx-4 w-25">
+                    <img
+                      className="img-fluid"
+                      src="images/brand-08.png"
+                      alt="brand"
+                    />
+                  </div>
+                </Marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-title">Our Latest News</h3>
+            </div>
+            <BlogCard
+              imgUrl="images/blog-1.jpg"
+              date="3 March 2023"
+              title="Amazona helps employees learn and earn"
+              desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
+            />
+            <BlogCard
+              imgUrl="images/blog-2.jpg"
+              date="25 January 2023"
+              title="Amazona pays college tuition for front-line employees"
+              desc="Amazona offers prepaid tuition for college, courses to earn high school diplomas and GEDs, and English as a second language certifications"
+            />
+            <BlogCard
+              imgUrl="images/blog-3.jpg"
+              date="15 January 2023"
+              title="One Medical joins Amazona to make it easier for people"
+              desc="Together, Amazona and One Medical will help more people get better care, when and how they need it"
+            />
+            <BlogCard
+              imgUrl="images/blog-4.jpg"
+              date="2 January 2023"
+              title="3 new features to try out on your Kindle Scribe"
+              desc="Here are a few new features that will bring your Kindle Scribe experience to the next level. New brush types for a more versatile Pen experience"
+            />
           </div>
         </div>
       </section>

@@ -228,6 +228,58 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="featured-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-title">Popular items this season</h3>
+            </div>
+            <ProductCard
+              imgUrl="images/watch.jpg"
+              category="Smart Watches"
+              title="Round Face 2023"
+              price="$39"
+              rate="3"
+            />
+            <ProductCard
+              imgUrl="images/headphone.jpg"
+              category="Headphones"
+              title="Beats Solo3"
+              price="$119"
+              rate="4"
+            />
+            <ProductCard
+              imgUrl="images/homeapp.jpg"
+              category="Kitchen Tools"
+              title="BUYDEEM Toaster"
+              price="$72"
+              rate="5"
+            />
+            <ProductCard
+              imgUrl="images/speaker.jpg"
+              category="Speakers"
+              title="Portable Speaker"
+              price="$25"
+              rate="4"
+            />
+            <ProductCard
+              imgUrl="images/acc.jpg"
+              category="Buds"
+              title="Studio Buds"
+              price="$55"
+              rate="3"
+            />
+            <ProductCard
+              imgUrl="images/laptop.jpg"
+              category="Laptops"
+              title="MacBook Pro"
+              price="$2000"
+              rate="5"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="marque-wrapper py-5">
         <div className="container-xxl">
           <div className="row">
@@ -293,52 +345,6 @@ const Home = () => {
                 </Marquee>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="section-title">Popular items this season</h3>
-            </div>
-            <ProductCard
-              imgUrl="images/watch.jpg"
-              category="Smart Watches"
-              title="Round Face 2023"
-              price="$39"
-            />
-            <ProductCard
-              imgUrl="images/headphone.jpg"
-              category="Headphones"
-              title="Beats Solo3"
-              price="$119"
-            />
-            <ProductCard
-              imgUrl="images/homeapp.jpg"
-              category="Kitchen Tools"
-              title="BUYDEEM Toaster"
-              price="$72"
-            />
-            <ProductCard
-              imgUrl="images/speaker.jpg"
-              category="Speakers"
-              title="Portable Speaker"
-              price="$25"
-            />
-            <ProductCard
-              imgUrl="images/acc.jpg"
-              category="Buds"
-              title="Studio Buds"
-              price="$55"
-            />
-            <ProductCard
-              imgUrl="images/laptop.jpg"
-              category="Laptops"
-              title="MacBook Pro"
-              price="$2000"
-            />
           </div>
         </div>
       </section>

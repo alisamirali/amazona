@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
+import ProductCard from "../components/ProductCard";
 
 const Home = () => {
   return (
@@ -292,6 +293,52 @@ const Home = () => {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-title">Popular items this season</h3>
+            </div>
+            <ProductCard
+              imgUrl="images/watch.jpg"
+              category="Smart Watches"
+              title="Round Face 2023"
+              price="$39"
+            />
+            <ProductCard
+              imgUrl="images/headphone.jpg"
+              category="Headphones"
+              title="Beats Solo3"
+              price="$119"
+            />
+            <ProductCard
+              imgUrl="images/homeapp.jpg"
+              category="Kitchen Tools"
+              title="BUYDEEM Toaster"
+              price="$72"
+            />
+            <ProductCard
+              imgUrl="images/speaker.jpg"
+              category="Speakers"
+              title="Portable Speaker"
+              price="$25"
+            />
+            <ProductCard
+              imgUrl="images/acc.jpg"
+              category="Buds"
+              title="Studio Buds"
+              price="$55"
+            />
+            <ProductCard
+              imgUrl="images/laptop.jpg"
+              category="Laptops"
+              title="MacBook Pro"
+              price="$2000"
+            />
           </div>
         </div>
       </section>

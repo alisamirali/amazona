@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
+import SpecialProduct from "../components/SpecialProduct";
 
 const Home = () => {
   return (
@@ -232,7 +233,7 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-title">Popular items this season</h3>
+              <h3 className="section-title">Popular Items</h3>
             </div>
             <ProductCard
               imgUrl="images/watch.jpg"
@@ -275,6 +276,45 @@ const Home = () => {
               title="MacBook Pro"
               price="$2000"
               rate="5"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="special-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-title">Special Products</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <SpecialProduct
+              imgUrl="images/special-1.jpg"
+              category="Mobiles"
+              title="SAMSUNG Galaxy S23"
+              rate="4"
+              price="$1056"
+              discount="$1600"
+            />
+
+            <SpecialProduct
+              imgUrl="images/special-2.jpg"
+              category="Mobiles"
+              title="SAMSUNG Galaxy S23"
+              rate="5"
+              price="$565"
+              discount="$580"
+            />
+
+            <SpecialProduct
+              imgUrl="images/special-3.jpg"
+              category="Mobiles"
+              title="SAMSUNG Galaxy S23"
+              rate="4"
+              price="$453"
+              discount="$460"
             />
           </div>
         </div>

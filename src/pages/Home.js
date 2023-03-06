@@ -233,7 +233,7 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-title">Popular Items</h3>
+              <h3 className="section-title">Featured Products</h3>
             </div>
             <ProductCard
               imgUrl="images/watch.jpg"
@@ -289,7 +289,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row gap-0">
             <SpecialProduct
               imgUrl="images/special-1.jpg"
               category="Mobiles"
@@ -315,6 +315,61 @@ const Home = () => {
               rate="4"
               price="$453"
               discount="$460"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-title">Our Popular Products</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <ProductCard
+              imgUrl="images/watch.jpg"
+              category="Smart Watches"
+              title="Round Face 2023"
+              price="$39"
+              rate="3"
+            />
+            <ProductCard
+              imgUrl="images/headphone.jpg"
+              category="Headphones"
+              title="Beats Solo3"
+              price="$119"
+              rate="4"
+            />
+            <ProductCard
+              imgUrl="images/homeapp.jpg"
+              category="Kitchen Tools"
+              title="BUYDEEM Toaster"
+              price="$72"
+              rate="5"
+            />
+            <ProductCard
+              imgUrl="images/speaker.jpg"
+              category="Speakers"
+              title="Portable Speaker"
+              price="$25"
+              rate="4"
+            />
+            <ProductCard
+              imgUrl="images/acc.jpg"
+              category="Buds"
+              title="Studio Buds"
+              price="$55"
+              rate="3"
+            />
+            <ProductCard
+              imgUrl="images/laptop.jpg"
+              category="Laptops"
+              title="MacBook Pro"
+              price="$2000"
+              rate="5"
             />
           </div>
         </div>

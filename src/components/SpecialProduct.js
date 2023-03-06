@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const SpecialProduct = (props) => {
   return (
     <div className="col-4">
-      <div className="special-product-card">
-        <div className="d-flex gap-10">
+      <div className="special-product-card py-4">
+        <div className="d-flex gap-30">
           <div className="special-img">
             <img
               src={props.imgUrl}
@@ -16,8 +16,8 @@ const SpecialProduct = (props) => {
           </div>
 
           <div className="special-product-content">
-            <h5 className="category">{props.category}</h5>
-            <h6 className="title">{props.title}</h6>
+            <h5 className="category fs-6">{props.category}</h5>
+            <h6 className="title fs-5">{props.title}</h6>
 
             <ReactStars
               className="mb-5"
@@ -40,15 +40,15 @@ const SpecialProduct = (props) => {
               </p>
 
               <div className="d-flex align-items-center gap-2">
-                <span className="badge rounded-circle p-2 bg-warning">99</span>:
-                <span className="badge rounded-circle p-2 bg-warning">99</span>:
-                <span className="badge rounded-circle p-2 bg-warning">99</span>
+                <span className="badge rounded-circle p-2">99</span>:
+                <span className="badge rounded-circle p-2">99</span>:
+                <span className="badge rounded-circle p-2">99</span>
               </div>
             </div>
 
             <div className="product-count mt-3 mb-3">
               <p className="mb-0">Products: 5</p>
-              <div className="progress">
+              {/* <div className="progress">
                 <div
                   className="progress-bar bg-success"
                   role="progressbar"
@@ -57,7 +57,7 @@ const SpecialProduct = (props) => {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
-              </div>
+              </div> */}
             </div>
 
             <Link to="" className="button">

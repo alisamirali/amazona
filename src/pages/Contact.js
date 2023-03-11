@@ -9,9 +9,7 @@ const Contact = () => {
   return (
     <>
       <Meta title="Amazona - Contact" />
-      <BreadCrumb
-        title={`contact`.charAt(0).toUpperCase() + `contact`.slice(1)}
-      />
+      <BreadCrumb title="contact" />
 
       <div className="contact-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">

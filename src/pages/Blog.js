@@ -7,7 +7,7 @@ function Blogs() {
   return (
     <>
       <Meta title="Amazona - Blog" />
-      <BreadCrumb title={`blog`.charAt(0).toUpperCase() + `blog`.slice(1)} />
+      <BreadCrumb title="blog" />
 
       <div className="blog-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">

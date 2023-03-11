@@ -54,7 +54,10 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/compare-product"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="images/compare.svg" alt="Compare" />
                     <p className="mb-0">
                       Compare <br /> Products
@@ -62,7 +65,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/wishlist"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="images/wishlist.svg" alt="Wishlist" />
                     <p className="mb-0">
                       Favorites <br /> Wishlist
@@ -70,7 +76,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/login"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="images/user.svg" alt="User" />
                     <p className="mb-0">
                       Login <br /> My Account
@@ -78,7 +87,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/cart"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="images/cart.svg" alt="Cart" />
                     <div className="d-flex flex-column gap-1">
                       <span className="badge bg-white text-dark">0</span>

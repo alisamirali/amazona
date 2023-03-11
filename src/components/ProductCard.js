@@ -5,6 +5,12 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { BsEye } from "react-icons/bs";
 
 const ProductCard = (props) => {
+  // const { grid } = props;
+  // let location = useLocation();
+
+  // className={`col-2 ${
+  //   location.pathname === "/store" ? `col-${grid}` : "col-2"
+  // } `}
   return (
     <div className="col-2">
       <Link to="" className="product-card">

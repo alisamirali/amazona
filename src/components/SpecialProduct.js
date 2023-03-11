@@ -34,7 +34,7 @@ const SpecialProduct = (props) => {
               <strike>{props.discount}</strike>
             </p>
 
-            <div className="discount-till d-flex align-items-center gap-4">
+            <div className="discount-till d-flex align-items-center gap-4 mb-3">
               <p className="mb-0">
                 <b>3</b> days
               </p>
@@ -46,9 +46,9 @@ const SpecialProduct = (props) => {
               </div>
             </div>
 
-            <div className="product-count mt-3 mb-3">
-              <p className="mb-0">Products: 5</p>
-              {/* <div className="progress">
+            {/* <div className="product-count mt-3 mb-3"> */}
+            {/* <p className="mb-0">Products: 5</p> */}
+            {/* <div className="progress">
                 <div
                   className="progress-bar bg-success"
                   role="progressbar"
@@ -58,7 +58,7 @@ const SpecialProduct = (props) => {
                   aria-valuemax="100"
                 ></div>
               </div> */}
-            </div>
+            {/* </div> */}
 
             <Link to="" className="button">
               Add to cart

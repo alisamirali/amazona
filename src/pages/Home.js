@@ -240,43 +240,125 @@ const Home = () => {
               category="Smart Watches"
               title="Round Face 2023"
               price="$39"
-              rate="3"
+              rate={3}
             />
             <ProductCard
               imgUrl="images/headphone.jpg"
               category="Headphones"
               title="Beats Solo3"
               price="$119"
-              rate="4"
+              rate={4}
             />
             <ProductCard
               imgUrl="images/homeapp.jpg"
               category="Kitchen Tools"
               title="BUYDEEM Toaster"
               price="$72"
-              rate="5"
+              rate={5}
             />
             <ProductCard
               imgUrl="images/speaker.jpg"
               category="Speakers"
               title="Portable Speaker"
               price="$25"
-              rate="4"
+              rate={4}
             />
             <ProductCard
               imgUrl="images/acc.jpg"
               category="Buds"
               title="Studio Buds"
               price="$55"
-              rate="3"
+              rate={3}
             />
             <ProductCard
               imgUrl="images/laptop.jpg"
               category="Laptops"
               title="MacBook Pro"
               price="$2000"
-              rate="5"
+              rate={5}
             />
+          </div>
+        </div>
+      </section>
+
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            {/* Card 1 - Dark */}
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <div className="famous-img">
+                  <img
+                    src="images/famous-1.jpg"
+                    className="img-fluid"
+                    alt="Famous"
+                  />
+                </div>
+
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h4>Watch Series 7</h4>
+                  <p>Timex Men's Expedition Scout 40 Watch</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2 - Light */}
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <div className="famous-img">
+                  <img
+                    src="images/famous-2.jpg"
+                    className="img-fluid"
+                    alt="Famous"
+                  />
+                </div>
+
+                <div className="famous-content position-absolute">
+                  <h5>Headphones</h5>
+                  <h4>Apple W1 Headphone</h4>
+                  <p>Beats Solo3 Wireless On-Ear Headphones</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 3 - Light */}
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <div className="famous-img">
+                  <img
+                    src="images/famous-3.jpg"
+                    className="img-fluid"
+                    alt="Famous"
+                  />
+                </div>
+
+                <div className="famous-content position-absolute">
+                  <h5>Camera</h5>
+                  <h4>Digital Camera</h4>
+                  <p>Panasonic LUMIX FZ300 Long Zoom</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 4 - Light */}
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <div className="famous-img">
+                  <img
+                    src="images/famous-4.jpg"
+                    className="img-fluid"
+                    alt="Famous"
+                  />
+                </div>
+
+                <div className="famous-content position-absolute">
+                  <h5>Smart Phone</h5>
+                  <h4>Apple iPhone 14 Pro</h4>
+                  <p>128GB, Space Black - Unlocked</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -294,7 +376,7 @@ const Home = () => {
               imgUrl="images/special-1.jpg"
               category="Mobiles"
               title="SAMSUNG Galaxy S23"
-              rate="4"
+              rate={4}
               price="$1056"
               discount="$1600"
             />
@@ -303,7 +385,7 @@ const Home = () => {
               imgUrl="images/special-2.jpg"
               category="Mobiles"
               title="SAMSUNG Galaxy S23"
-              rate="5"
+              rate={5}
               price="$565"
               discount="$580"
             />
@@ -312,7 +394,7 @@ const Home = () => {
               imgUrl="images/special-3.jpg"
               category="Mobiles"
               title="SAMSUNG Galaxy S23"
-              rate="4"
+              rate={4}
               price="$453"
               discount="$460"
             />
@@ -328,48 +410,47 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row d-flex">
             <ProductCard
               imgUrl="images/watch.jpg"
               category="Smart Watches"
               title="Round Face 2023"
               price="$39"
-              rate="3"
+              rate={3}
             />
             <ProductCard
               imgUrl="images/headphone.jpg"
               category="Headphones"
               title="Beats Solo3"
               price="$119"
-              rate="4"
+              rate={3}
             />
             <ProductCard
               imgUrl="images/homeapp.jpg"
               category="Kitchen Tools"
               title="BUYDEEM Toaster"
               price="$72"
-              rate="5"
+              rate={5}
             />
             <ProductCard
               imgUrl="images/speaker.jpg"
               category="Speakers"
               title="Portable Speaker"
               price="$25"
-              rate="4"
+              rate={4}
             />
             <ProductCard
               imgUrl="images/acc.jpg"
               category="Buds"
               title="Studio Buds"
               price="$55"
-              rate="3"
             />
             <ProductCard
               imgUrl="images/laptop.jpg"
               category="Laptops"
               title="MacBook Pro"
               price="$2000"
-              rate="5"
+              rate={5}
             />
           </div>
         </div>
@@ -450,30 +531,41 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-title">Our Latest News</h3>
             </div>
-            <BlogCard
-              imgUrl="images/blog-1.jpg"
-              date="3 March 2023"
-              title="Amazona helps employees learn and earn"
-              desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
-            />
-            <BlogCard
-              imgUrl="images/blog-2.jpg"
-              date="25 January 2023"
-              title="Amazona pays college tuition for front-line employees"
-              desc="Amazona offers prepaid tuition for college, courses to earn high school diplomas and GEDs, and English as a second language certifications"
-            />
-            <BlogCard
-              imgUrl="images/blog-3.jpg"
-              date="15 January 2023"
-              title="One Medical joins Amazona to make it easier for people"
-              desc="Together, Amazona and One Medical will help more people get better care, when and how they need it"
-            />
-            <BlogCard
-              imgUrl="images/blog-4.jpg"
-              date="2 January 2023"
-              title="3 new features to try out on your Kindle Scribe"
-              desc="Here are a few new features that will bring your Kindle Scribe experience to the next level. New brush types for a more versatile Pen experience"
-            />
+
+            <div className="row d-flex">
+              <div className="col-3">
+                <BlogCard
+                  imgUrl="images/blog-1.jpg"
+                  date="3 March 2023"
+                  title="Amazona helps employees learn and earn"
+                  desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
+                />
+              </div>
+              <div className="col-3">
+                <BlogCard
+                  imgUrl="images/blog-2.jpg"
+                  date="25 January 2023"
+                  title="Amazona pays college tuition for front-line employees"
+                  desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
+                />
+              </div>
+              <div className="col-3">
+                <BlogCard
+                  imgUrl="images/blog-3.jpg"
+                  date="15 January 2023"
+                  title="One Medical joins Amazona to make it easier for people"
+                  desc="Together, Amazona and One Medical will help more people get better care, when and how they need it"
+                />
+              </div>
+              <div className="col-3">
+                <BlogCard
+                  imgUrl="images/blog-4.jpg"
+                  date="2 January 2023"
+                  title="3 new features to try out on your Kindle Scribe at Amazona"
+                  desc="Here are a few new features that will bring your Kindle Scribe experience to the next level. New brush types."
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ function OurStore() {
   return (
     <>
       <Meta title="Amazona - Our Store" />
-      <BreadCrumb title="store" />
+      <BreadCrumb title={`store`.charAt(0).toUpperCase() + `store`.slice(1)} />
 
       <div className="store-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">

@@ -7,7 +7,7 @@ function Blogs() {
   return (
     <>
       <Meta title="Amazona - Blog" />
-      <BreadCrumb title="blog" />
+      <BreadCrumb title={`blog`.charAt(0).toUpperCase() + `blog`.slice(1)} />
 
       <div className="blog-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
@@ -27,31 +27,42 @@ function Blogs() {
               </div>
             </div>
             <div className="col-9">
-              <div className="d-flex gap-3">
-                <BlogCard
-                  imgUrl="images/blog-1.jpg"
-                  date="3 March 2023"
-                  title="Amazona helps employees learn and earn"
-                  desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
-                />
-                <BlogCard
-                  imgUrl="images/blog-2.jpg"
-                  date="25 January 2023"
-                  title="Amazona pays college tuition for front-line employees"
-                  desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
-                />
-                <BlogCard
-                  imgUrl="images/blog-3.jpg"
-                  date="15 January 2023"
-                  title="One Medical joins Amazona to make it easier for people"
-                  desc="Together, Amazona and One Medical will help more people get better care, when and how they need it"
-                />
-                <BlogCard
-                  imgUrl="images/blog-4.jpg"
-                  date="2 January 2023"
-                  title="3 new features to try out on your Kindle Scribe at Amazona"
-                  desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
-                />
+              <div className="row">
+                <div className="col-6 mb-4">
+                  <BlogCard
+                    imgUrl="images/blog-1.jpg"
+                    date="3 March 2023"
+                    title="Amazona helps employees learn and earn"
+                    desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
+                  />
+                </div>
+
+                <div className="col-6 mb-4">
+                  <BlogCard
+                    imgUrl="images/blog-2.jpg"
+                    date="25 January 2023"
+                    title="Amazona pays college tuition for employees"
+                    desc="We committed to spending $1.2 billion by 2025 to provide prepaid education and free technical skills training"
+                  />
+                </div>
+
+                <div className="col-6 mb-4">
+                  <BlogCard
+                    imgUrl="images/blog-4.jpg"
+                    date="2 January 2023"
+                    title="3 new features to try out on your Kindle Scribe"
+                    desc="Here are a few new features that will bring your Kindle Scribe experience to the next level. New brush types."
+                  />
+                </div>
+
+                <div className="col-6 mb-4">
+                  <BlogCard
+                    imgUrl="images/blog-3.jpg"
+                    date="15 January 2023"
+                    title="One Medical joins Amazona to make it easier"
+                    desc="Together, Amazona and One Medical will help more people get better care, when and how they need it"
+                  />
+                </div>
               </div>
             </div>
           </div>

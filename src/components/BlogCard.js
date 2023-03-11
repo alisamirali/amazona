@@ -6,7 +6,7 @@ const BlogCard = (props) => {
     // <div className="col-3">
     <div className="blog-card">
       <div className="blog-image">
-        <img src={props.imgUrl} className="img-fluid" alt="Card Img" />
+        <img src={props.imgUrl} className="img-fluid w-100" alt="Card Img" />
       </div>
 
       <div className="blog-content">

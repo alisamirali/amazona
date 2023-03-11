@@ -511,3 +511,49 @@ footer .input-group-text {
 .products-list {
   row-gap: 15px;
 }
+
+/*
+* Contact Page
+*/
+.contact-inner-wrapper {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: var(--color-ffffff);
+  gap: 15px;
+}
+
+.contact-inner-wrapper > div {
+  width: 48%;
+}
+.contact-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.contact-inner-wrapper form .form-control {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+}
+
+.contact-inner-wrapper form .form-control:focus {
+  border-color: var(--color-ffc462);
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-inner-wrapper ul {
+  list-style-type: none;
+}
+
+.contact-inner-wrapper ul li {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-inner-wrapper ul li .icon {
+  color: var(--color-fc353c);
+}

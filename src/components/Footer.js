@@ -38,9 +38,11 @@ const Footer = () => {
             <div className="col-3">
               <h5 className="text-white mb-4">Get to Know Us</h5>
               <div className="footer-links d-flex flex-column mb-2">
-                <Link className="text-white py-2 mb-1">Careers</Link>
-                <Link className="text-white py-2 mb-1">Blog</Link>
-                <Link className="text-white py-2 mb-1">About Amazona</Link>
+                <Link className="text-white py-2 mb-1">About Us</Link>
+                <Link to="/blog" className="text-white py-2 mb-1">
+                  Blog
+                </Link>
+                <Link className="text-white py-2 mb-1">FAQs</Link>
               </div>
 
               <div className="social_icons d-flex align-items-center gap-30">
@@ -60,25 +62,19 @@ const Footer = () => {
             </div>
 
             <div className="col-4">
-              <h5 className="text-white mb-4">Make Money With Us</h5>
+              <h5 className="text-white mb-4">Information</h5>
               <div className="footer-links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">
-                  Sell products on Amazona
+                <Link to="/privacy-policy" className="text-white py-2 mb-1">
+                  Privacy Policy
                 </Link>
-                <Link className="text-white py-2 mb-1">
-                  Sell on Amazona Business
+                <Link to="/refund-policy" className="text-white py-2 mb-1">
+                  Refund Policy
                 </Link>
-                <Link className="text-white py-2 mb-1">
-                  Sell apps on Amazona
+                <Link to="/shipping-policy" className="text-white py-2 mb-1">
+                  Shipping Policy
                 </Link>
-                <Link className="text-white py-2 mb-1">
-                  Become an Affiliate
-                </Link>
-                <Link className="text-white py-2 mb-1">
-                  Advertise Your Products
-                </Link>
-                <Link className="text-white py-2 mb-1">
-                  Self-Publish with Us
+                <Link to="/terms-conditions" className="text-white py-2 mb-1">
+                  Terms & Conditions
                 </Link>
               </div>
             </div>
@@ -104,10 +100,6 @@ const Footer = () => {
               <div className="footer-links d-flex flex-column">
                 <Link className="text-white py-2 mb-1">Your Account</Link>
                 <Link className="text-white py-2 mb-1">Your Orders</Link>
-                <Link className="text-white py-2 mb-1">Amazona Assistant</Link>
-                <Link className="text-white py-2 mb-1">
-                  Your Content and Devices
-                </Link>
                 <Link className="text-white py-2 mb-1">
                   Returns & Replacements
                 </Link>

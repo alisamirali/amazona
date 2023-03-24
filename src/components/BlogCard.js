@@ -13,7 +13,7 @@ const BlogCard = (props) => {
         <p className="date">{props.date}</p>
         <h5 className="title">{props.title}</h5>
         <p className="desc">{props.desc}</p>
-        <Link to="/" className="button">
+        <Link to="/blog/:id" className="button">
           Read More
         </Link>
       </div>

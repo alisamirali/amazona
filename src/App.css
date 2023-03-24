@@ -668,3 +668,40 @@ textarea {
   color: var(--color-232f3e);
   font-size: 14px;
 }
+
+/*
+* Single Blog
+*/
+.single-blog-card a {
+  font-size: 16px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.single-blog-card .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-131921);
+}
+
+.single-blog-card img {
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+}
+
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+/*
+* Policy Pages
+*/
+.policy {
+  background-color: var(--color-ffffff);
+  padding: 30px;
+}

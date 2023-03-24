@@ -13,7 +13,7 @@ const ProductCard = (props) => {
   // } `}
   return (
     <div className="col-3">
-      <Link to="" className="product-card">
+      <Link to="/product/:id" className="product-card">
         <div className="product-actions">
           <Link to="/" className="wishlist">
             <AiOutlineHeart className="fs-5" />
